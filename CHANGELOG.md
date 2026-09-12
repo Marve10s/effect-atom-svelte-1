@@ -6,6 +6,10 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-09-12
+
+- Updated Effect dependency to `4.0.0-rc.115`
+
 ## [1.0.4] - 2026-06-21
 
 ### Fixed
