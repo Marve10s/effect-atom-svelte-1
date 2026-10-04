@@ -6,6 +6,8 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-10-04
+
 ### Breaking
 
 - Requires `effect` `^4.0.0`. Import atoms from `effect/reactivity`; Effect 4.0.0 removed the `effect/unstable/*` paths.
