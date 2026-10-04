@@ -1,8 +1,8 @@
 /**
  * @since 1.0.0
  */
-import type * as Atom from 'effect/unstable/reactivity/Atom'
-import * as AtomRegistry from 'effect/unstable/reactivity/AtomRegistry'
+import type * as Atom from 'effect/reactivity/Atom'
+import * as AtomRegistry from 'effect/reactivity/AtomRegistry'
 
 import { getContext, onDestroy, setContext } from 'svelte'
 

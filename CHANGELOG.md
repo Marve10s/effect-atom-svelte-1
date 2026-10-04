@@ -6,6 +6,11 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 
 ## [Unreleased]
 
+### Breaking
+
+- Requires `effect` `^4.0.0`. Import atoms from `effect/reactivity`; Effect 4.0.0 removed the `effect/unstable/*` paths.
+- `effect` is a peer dependency. Install it in your app; the package shares its Effect instance.
+
 ## [1.0.5] - 2026-09-12
 
 - Updated Effect dependency to `4.0.0-rc.115`

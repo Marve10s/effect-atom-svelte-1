@@ -4,7 +4,7 @@
     useAtomRefProp,
     useAtomRefPropValue,
   } from "../../src/index.ts";
-  import type { AtomRef } from "effect/unstable/reactivity/AtomRef";
+  import type { AtomRef } from "effect/reactivity/AtomRef";
 
   type CounterRef = AtomRef<{ count: number; label: string }>;
 

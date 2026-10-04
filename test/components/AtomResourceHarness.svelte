@@ -1,7 +1,7 @@
 <script lang="ts">
   import { useAtomResource } from "../../src/index.ts";
-  import type { AsyncResult } from "effect/unstable/reactivity/AsyncResult";
-  import type { Atom } from "effect/unstable/reactivity/Atom";
+  import type { AsyncResult } from "effect/reactivity/AsyncResult";
+  import type { Atom } from "effect/reactivity/Atom";
 
   type NumberAsyncResult = AsyncResult<number, Error>;
   type NumberResourceAtom = Atom<NumberAsyncResult>;

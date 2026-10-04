@@ -1,6 +1,6 @@
 <script lang="ts">
   import { useAtomRef } from "../../src/index.ts";
-  import type * as AtomRef from "effect/unstable/reactivity/AtomRef";
+  import type * as AtomRef from "effect/reactivity/AtomRef";
 
   const {
     ref,

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { RegistryProvider } from "../../src/index.ts";
-  import type * as Atom from "effect/unstable/reactivity/Atom";
+  import type * as Atom from "effect/reactivity/Atom";
   import ProviderHarnessInner from "./ProviderHarnessInner.svelte";
 
   const {

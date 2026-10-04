@@ -1,6 +1,6 @@
 <script lang="ts">
   import { useAtomValue } from "../../src/index.ts";
-  import type { Atom } from "effect/unstable/reactivity/Atom";
+  import type { Atom } from "effect/reactivity/Atom";
 
   type NumberAtom = Atom<number>;
 

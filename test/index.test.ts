@@ -1,5 +1,5 @@
 import { Cause, Effect } from 'effect'
-import { AsyncResult, Atom, AtomRef, AtomRegistry } from 'effect/unstable/reactivity'
+import { AsyncResult, Atom, AtomRef, AtomRegistry } from 'effect/reactivity'
 import { assert, describe, it, vi } from 'vitest'
 
 import AtomRefHarness from './components/AtomRefHarness.svelte'

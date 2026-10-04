@@ -4,12 +4,12 @@ Svelte 5 bindings for Effect Atom.
 
 This package is a pure AI port based on the other Effect Atom adapters. It aims to follow the same shape and behavior, but it has not had the same level of manual validation, so things can break.
 
-This package connects `effect/unstable/reactivity` atoms to Svelte's reactivity model. It provides a registry provider for scoped atom lifetimes and a small set of hooks for reading, writing, subscribing to, and awaiting atom state inside Svelte components.
+This package connects `effect/reactivity` atoms to Svelte's reactivity model. It provides a registry provider for scoped atom lifetimes and a small set of hooks for reading, writing, subscribing to, and awaiting atom state inside Svelte components.
 
 ## Requirements
 
 - Svelte 5
-- `effect` v4 with `unstable/reactivity`
+- `effect` v4 (`effect/reactivity`)
 - TypeScript with bundler-style module resolution
 
 ## Installation
@@ -22,7 +22,7 @@ pnpm add @sproott/effect-atom-svelte effect svelte
 
 ```svelte
 <script lang="ts">
-	import { Atom } from 'effect/unstable/reactivity'
+	import { Atom } from 'effect/reactivity'
 	import { RegistryProvider, useAtom } from '@sproott/effect-atom-svelte'
 
 	const counter = Atom.make(0)
@@ -51,7 +51,7 @@ Use it when you want:
 
 ```svelte
 <script lang="ts">
-	import { Atom } from 'effect/unstable/reactivity'
+	import { Atom } from 'effect/reactivity'
 	import { RegistryProvider, useAtomValue } from '@sproott/effect-atom-svelte'
 
 	const greeting = Atom.make('hello')

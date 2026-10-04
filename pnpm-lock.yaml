@@ -7,14 +7,10 @@ settings:
 importers:
 
   .:
-    dependencies:
-      effect:
-        specifier: ^4.0.0-rc.115
-        version: 4.0.0-rc.115
     devDependencies:
       '@effect/language-service':
-        specifier: ^0.86.1
-        version: 0.86.1
+        specifier: ^0.87.3
+        version: 0.87.3
       '@sveltejs/package':
         specifier: ^2.4.0
         version: 2.5.7(svelte@5.55.8)(typescript@5.9.3)
@@ -30,6 +26,9 @@ importers:
       '@testing-library/svelte':
         specifier: ^5.3.1
         version: 5.3.1(svelte@5.55.8)(vite@6.4.2(yaml@2.9.0))(vitest@3.2.4(jsdom@26.1.0)(yaml@2.9.0))
+      effect:
+        specifier: ^4.0.0
+        version: 4.0.0
       jsdom:
         specifier: ^26.1.0
         version: 26.1.0
@@ -100,8 +99,8 @@ packages:
     resolution: {integrity: sha512-Vd/9EVDiu6PPJt9yAh6roZP6El1xHrdvIVGjyBsHR0RYwNHgL7FJPyIIW4fANJNG6FtyZfvlRPpFI4ZM/lubvw==}
     engines: {node: '>=18'}
 
-  '@effect/language-service@0.86.1':
-    resolution: {integrity: sha512-jfUuFdtNPKRZ4ZSrgTnfMHPIVq8L9cM+YGEylQ1lhIgNY23ZvfdPg0cUlWESd4q9aGvOWSA8E79AS0qe3j4ROw==}
+  '@effect/language-service@0.87.3':
+    resolution: {integrity: sha512-g1OmRBZF5chbW9QMNoirPo5Bb4zzU2HfP88tR7/VSZEUxHJ1/qVb8AQ0kUh2ggctLH1I715yCwP4gkw56PTjpQ==}
     hasBin: true
 
   '@esbuild/aix-ppc64@0.25.12':
@@ -626,8 +625,8 @@ packages:
   dom-accessibility-api@0.6.3:
     resolution: {integrity: sha512-7ZgogeTnjuHbo+ct10G9Ffp0mif17idi0IyWNVA/wcwcm7NPOD/WEHVP3n7n3MhXqxoIYm8d6MuZohYWIZ4T3w==}
 
-  effect@4.0.0-rc.115:
-    resolution: {integrity: sha512-ogYulZ5ffeOzrJqQrG0XOkDO5lKn2s9KNHhoxJy/6wKUkF0i12dlVXWA9TgsgQ+zV/JzizyG0+XMPepZEQX6vw==}
+  effect@4.0.0:
+    resolution: {integrity: sha512-ooc1TG5t+FfzgYnFz2ff6BBKyZ7EwBRVXC7c4RhQUAD6/TZ2gTXXMeb4WX7a19ozQo4J73/QW+S00YAIresoMQ==}
 
   entities@6.0.1:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
@@ -1091,7 +1090,7 @@ snapshots:
 
   '@csstools/css-tokenizer@3.0.4': {}
 
-  '@effect/language-service@0.86.1': {}
+  '@effect/language-service@0.87.3': {}
 
   '@esbuild/aix-ppc64@0.25.12':
     optional: true
@@ -1468,7 +1467,7 @@ snapshots:
 
   dom-accessibility-api@0.6.3: {}
 
-  effect@4.0.0-rc.115: {}
+  effect@4.0.0: {}
 
   entities@6.0.1: {}
 
